@@ -23,13 +23,13 @@ main {
 
 h2 {
     color: #a14e4e;
-    letter-spacing: 0.5px; /* Espaciado entre letras */
+    letter-spacing: 0.5px; 
 }
 
 p {
     color: #501111;
     text-align: left;
-    line-height: 1.6; /* Espaciado entre líneas */
+    line-height: 1.6; 
 }
 
 button {
@@ -40,11 +40,11 @@ button {
     cursor: pointer;
     border-radius: 5px; 
     margin-top: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra para el botón */
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Transición suave */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
 }
 
 button:hover {
     background-color: #0056b3;
-    transform: scale(1.05); /* Efecto de crecimiento al pasar el mouse */
+    transform: scale(1.05); 
 }
