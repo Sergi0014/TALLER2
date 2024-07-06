@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(to right, #dab1b1, #f3d2c1); /* Gradiente de fondo */
+}
+
+.covid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #a14e4e;
+    letter-spacing: 0.5px; /* Espaciado entre letras */
+}
+
+p {
+    color: #501111;
+    text-align: left;
+    line-height: 1.6; /* Espaciado entre líneas */
+}
+
+button {
+    background-color: #007bff; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; 
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra para el botón */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transición suave */
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Efecto de crecimiento al pasar el mouse */
+}
